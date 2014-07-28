@@ -1,4 +1,6 @@
-soapui-search-plugin
+soapui-ssl-workaround-plugin
 =============================
 
-A sample plugin - see http://olensmar.blogspot.com/2014/07/getting-started-with-new-soapui-plugin.html
+A simple plugin to make REST Discovery stop complaining about self signed certificates and expired certificates.
+
+The plugin has no configuration. Install the plugin to enable it and uninstall it to disable.
