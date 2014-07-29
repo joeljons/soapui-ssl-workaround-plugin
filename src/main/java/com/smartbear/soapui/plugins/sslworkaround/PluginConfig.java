@@ -13,8 +13,8 @@ import javax.net.ssl.X509TrustManager;
 import java.security.GeneralSecurityException;
 import java.security.cert.X509Certificate;
 
-@PluginConfiguration(groupId = "com.smartbear.soapui.plugins", name = "SSL Workaround Plugin", version = "1.0.0",
-        autoDetect = true, description = "Make REST Discovery stop complaining about self signed certificates and expired certificates (no config).",
+@PluginConfiguration(groupId = "com.smartbear.soapui.plugins", name = "SSL Workaround Plugin", version = "1.0",
+        autoDetect = true, description = "Make REST Discovery stop complaining about self signed certificates and expired certificates (no config)",
         infoUrl = "https://github.com/joeljons/soapui-ssl-workaround-plugin")
 public class PluginConfig extends PluginAdapter {
     @Override
